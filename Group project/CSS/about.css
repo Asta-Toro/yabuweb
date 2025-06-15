@@ -1,0 +1,188 @@
+body {
+  position: relative;
+}
+
+
+
+.us {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 90px;
+}
+
+
+
+section .us-intros{
+  color: #fff;
+  margin-top: 80x;
+  margin-top: 50px;
+  padding-left: 50px;
+  width: 40%;
+  line-height: 40px;
+}
+
+section .us-intros h1 {
+  margin-bottom: 22px ;
+  font-size: 30px;
+}
+
+section .us-image{
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+section .get-in-touch {
+  margin-top: 50px; 
+  background-color: #000;
+  text-align: center;
+  width: 50%;
+  padding: 20px auto ;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+section .get-in-touch:hover {
+  background-color: #614385;
+}
+
+.team {
+  width: 100%;
+  padding: 60px 0;
+  margin-top: 70px;
+  background: linear-gradient(80deg, #780206, #061161);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.team h2{
+  text-align: center;
+  color: #fff;
+  flex-basis: 100%;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+
+
+.team-member{
+  width: 250px;
+  height: 200px;
+  background-color: #111;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  background-size: cover;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+
+.team-member h3 {
+ margin-top: 20px;
+ color: #fff;
+ font-size: 24px;
+ padding-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 14px;
+  color: #fff;
+  opacity: 0.5;
+  padding-bottom: 10px;
+}
+
+.option {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0;
+  margin-top: 20px;
+}
+
+.instagram img{
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  transition: all ease-in-out 0.5s;
+}
+
+.instagram img:hover{
+  background:url(../img/logo/instagram.png) ;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+}
+
+.linkedin img{
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  transition: all ease-in-out 0.5s;
+
+}
+
+.linkedin img:hover {
+  background-image: url(../img/logo/linkedin.png);
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  
+}
+
+.forming {
+  display: grid;
+  place-items: center;
+}
+
+.form {
+  margin-bottom: 80px;
+  background-color: #111;
+  width: 80%;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.form h1 {
+  color: #fff;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.form a{
+  margin-top: 30px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #614385;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.form a:hover {
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

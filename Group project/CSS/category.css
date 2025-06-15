@@ -1,0 +1,109 @@
+body {
+    position: relative;
+   
+}
+
+.category-intro {
+    margin-top: 120px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.category-intro h1 {
+    font-size: 40px;
+    margin: 35px auto;
+}
+
+.category-intro p{
+    font-size: 22px;
+    margin: 10px 0 20px;
+    font-family: poppins;
+}
+
+.search-bar {
+    display: flex;
+  padding: 4px 25px;
+  align-items: center;
+  position: relative;
+  width: 400px;
+  background: linear-gradient(80deg, #061161, #780206);
+  border-radius: 10px;
+  margin: 35px auto;
+}
+
+.search-bar label img{
+    height: 30px;
+    width: 30px;
+}
+.search-bar input {
+    font-size: 16px;
+    background: linear-gradient(80deg, #061161, #780206);
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 11px 21px;
+    width: 100%;
+    color: white;
+    font-family: poppins;
+}
+
+.book-choice {
+    color: #fff;
+}
+
+section .book-genre {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 90px;  
+}  
+
+section .book-genre img{
+    width: 250px;
+    height: 350px;
+    border-radius: 12px;
+}
+
+section .book-genre h2 {
+    margin-bottom: 15px;
+    font-size: 32px;
+}
+
+section .book-genre p{
+    line-height: 45px;
+}
+
+section a {
+    text-decoration: none;
+    color: #fff;
+    transition: all ease-in-out 0.5s;
+}
+
+
+
+section .go-genre {
+    width: fit-content;
+    padding: 15px 35px;
+    margin: 40px auto 20px;
+    background-color: #000;
+    border-radius: 22px;
+    transition: all ease-in-out 0.5s;
+}
+
+section .go-genre:hover {
+    background-color: #614385;
+}
+
+section hr{
+    border: px #fff solid;
+    margin: 50px auto;
+    width: 50%;
+}
+
+
+
+
+
+
+

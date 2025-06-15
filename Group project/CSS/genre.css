@@ -1,0 +1,178 @@
+body {
+    position: relative;
+   
+}
+
+hr {
+    width: 80%;
+    margin: auto auto;
+}
+
+.category-intro {
+    margin-top: 120px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.category-intro h1 {
+    font-size: 40px;
+    margin: 35px auto;
+}
+
+.category-intro p{
+    font-size: 22px;
+    margin: 10px 0 20px;
+    font-family: poppins;
+}
+
+.search-bar {
+    display: flex;
+  padding: 4px 25px;
+  align-items: center;
+  position: relative;
+  width: 400px;
+  background: linear-gradient(80deg, #061161, #780206);
+  border-radius: 10px;
+  margin: 35px auto;
+}
+
+.search-bar label img{
+    height: 30px;
+    width: 30px;
+}
+.search-bar input {
+    font-size: 16px;
+    background: linear-gradient(80deg, #061161, #780206);
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 11px 21px;
+    width: 100%;
+    color: white;
+    font-family: poppins;
+}
+
+.letters h3 {
+    text-align: left;
+    color: #fff;
+    flex-basis: 100%;
+    font-size: 28px;
+    text-transform: uppercase;
+    margin: 60px 0 40px 40px;
+    text-shadow: 2px 3px 0 0 #000;
+    background: linear-gradient(80deg, #000, #061161);
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 12px;
+
+}
+
+section .latest {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+section .latest img{
+    width: 250px;
+    height: 400px;
+    border-radius: 15px;
+}
+
+section .latest a{
+    text-decoration: none;
+}
+
+section .latest a p{ 
+    border-radius: 15px;
+    color: #fff;
+    margin: 30px 0;
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+    transition: all ease-in-out 0.5s;
+}
+
+section .latest a p:hover{
+    background: #614385 ;
+}
+
+
+
+.letters-2 {
+    color: #fff;
+    display: flex; 
+    margin: 60px 0 40px 40px;
+    justify-content: space-between;
+}
+.letters-2 h3 {
+   font-size: 35px;
+}
+
+.letters-2 p {
+  font-size: 20px;
+  padding: 10px 10px ; 
+  margin: 0 30px 00;
+  background: linear-gradient(80deg, #000, #780206);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.letters-2 p:hover{
+    opacity: 0.7;
+}
+
+
+
+
+
+section .contain {
+    margin-top: 60px ;
+    display: grid;
+    place-items: center; 
+}
+
+section .others {
+  
+    margin-bottom: 80px;
+    background-color: #111;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+
+section .others a{
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px ;
+    font-size: 19px;
+    padding: 0 20px;
+    border-radius: 12px;
+}
+
+section .others a p{
+    background: #614385;
+    padding: 10px 30px;
+    border-radius: 12px;
+}
+
+section .others a p:hover{
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,210 @@
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    place-items: center;
+    font-family: poppins;
+    background: linear-gradient(80deg, #780206, #061161);
+    background-size: cover;
+    color: #fff;
+}
+
+.container{
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    max-width: 350px;
+    padding: 20px 30px;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.15);
+}
+
+.container h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 15px 0 10px;
+    position: relative;
+}
+
+.container h2::before{
+    content:'';
+    width: 30px;
+    height: 4px;
+    background: linear-gradient(80deg, #780206, #061161);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.container .input-box{
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+    position: relative;
+}
+
+
+
+.container .input-box input{
+    width: 100%;
+    font-family: poppins;
+    color: #fff;
+    height: 45px;
+    outline: none;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+}
+
+.container .input-box  .underline{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #ccc;
+    left: 0;
+    bottom: 0;
+}
+
+.container .input-box  .underline::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(80deg, #780206, #061161);
+    left: 0;
+    bottom: 0;
+    transform: scale(0); 
+    transform-origin:center; 
+    transition: all ease-in-out 0.4s; 
+}
+
+.container .input-box input:focus ~ .underline::after{
+    transform: scale(1);
+    transform-origin: center;
+}
+
+.continue {
+    background-color: #000;
+    margin-top: 15px;
+    border-radius: 12px;
+    padding: 10px 0;
+    text-align: center;
+    transition: 0.5s all ease-in-out;
+}
+
+.continue a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.continue:hover {
+    background-color: #614385;
+    letter-spacing: 1px;
+}
+
+.option{
+    
+    text-align: center;
+    margin: 30px 0 20px;
+}
+
+.option p {
+    color: #000;
+    font-weight: 500;
+    
+}
+
+.container .linkedin a,
+.container .instagram a{
+    display: block;
+    width: 100%;
+    height: 45px;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 20px;
+    color: #fff;
+    line-height: 45px;
+    border-radius: 5px;
+}
+
+.container .linkedin i,
+.container .instagram i{
+    padding-right: 20px;
+}
+
+.container .linkedin a{
+    background:#00acee;
+    margin: 10px 0 ;
+    transition: all ease-in-out 0.4s;
+}
+
+.container .linkedin a:hover{
+    background-color: #1abeff;
+}
+
+.container .instagram a{
+    background:#99004D;
+    margin: 10px 0 30px ;
+    transition: all ease-in-out 0.4s;
+}
+
+.container .instagram a:hover{
+    background: #ff0080;
+    margin: 10px 0 30px ;
+}
+
+.forget{
+    text-align: left;
+    color: #000;
+    cursor: pointer;
+
+}
+
+.container .signin {
+    text-align: center;
+    
+}
+
+.container .signin p{
+    color: #fff;
+    font-size: 18px;
+    
+    margin-bottom: 20px;
+}
+
+.container .signin a {
+    color: #fff;
+    background:#000;
+    width: 20px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 10px;
+    padding: 7px 20px ;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    text-shadow: 2px 2px 3px 0  #fff;  
+    transform: scale(0); 
+    transform-origin:center; 
+    transition: all ease-in-out 0.4s; 
+}
+
+.container .signin a:hover {
+    background-color: #614385;
+    letter-spacing: 1px;
+    letter-spacing: 1px;
+}
